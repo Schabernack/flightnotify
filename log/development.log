@@ -1,0 +1,784 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-09-22 23:12:23 +0200
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/assets/rails.png" for 192.168.2.101 at 2011-09-22 23:13:57 +0200
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-09-22 23:28:28 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/a" for 127.0.0.1 at 2011-09-22 23:28:31 +0200
+
+ActionController::RoutingError (No route matches [GET] "/a"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/app" for 127.0.0.1 at 2011-09-22 23:28:31 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/appl" for 127.0.0.1 at 2011-09-22 23:28:31 +0200
+
+ActionController::RoutingError (No route matches [GET] "/appl"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/applicai" for 127.0.0.1 at 2011-09-22 23:28:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/applicai"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:28:33 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/application/" for 127.0.0.1 at 2011-09-22 23:28:33 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/application/inde" for 127.0.0.1 at 2011-09-22 23:28:34 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application/inde"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2011-09-22 23:28:34 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application/index"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2011-09-22 23:29:06 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application/index"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-09-22 23:29:18 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/a" for 127.0.0.1 at 2011-09-22 23:30:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/a"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/app" for 127.0.0.1 at 2011-09-22 23:30:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/app"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/appl" for 127.0.0.1 at 2011-09-22 23:30:41 +0200
+
+ActionController::RoutingError (No route matches [GET] "/appl"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/appli" for 127.0.0.1 at 2011-09-22 23:30:42 +0200
+
+ActionController::RoutingError (No route matches [GET] "/appli"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/applic" for 127.0.0.1 at 2011-09-22 23:30:42 +0200
+
+ActionController::RoutingError (No route matches [GET] "/applic"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:30:43 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/application/" for 127.0.0.1 at 2011-09-22 23:30:43 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/application/inde" for 127.0.0.1 at 2011-09-22 23:30:44 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application/inde"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/application/index" for 127.0.0.1 at 2011-09-22 23:30:44 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application/index"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/application/" for 127.0.0.1 at 2011-09-22 23:31:02 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:31:03 +0200
+
+ActionController::RoutingError (No route matches [GET] "/application"):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:32:00 +0200
+
+LoadError (no such file to load -- edavis10-ruby-web-search):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:32:36 +0200
+
+LoadError (no such file to load -- edavis10-ruby-web-search):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:32:40 +0200
+
+LoadError (no such file to load -- edavis10-ruby-web-search):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:33:04 +0200
+
+LoadError (no such file to load -- edavis10-ruby-web-search):
+  app/controllers/application_controller.rb:6:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:33:16 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:33:57 +0200
+
+LoadError (no such file to load -- ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:37:10 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:41:56 +0200
+
+LoadError (no such file to load -- ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:42:27 +0200
+
+LoadError (no such file to load -- ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.5ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:44:35 +0200
+
+LoadError (no such file to load -- ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:44:48 +0200
+
+LoadError (no such file to load -- ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.8ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-22 23:51:13 +0200
+
+LoadError (no such file to load -- edavis10-ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:08:18 +0200
+
+LoadError (no such file to load -- edavis10-ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.3ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:14:26 +0200
+
+LoadError (no such file to load -- ruby-web-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:30:45 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (8.7ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.2.101 at 2011-09-23 00:30:48 +0200
+Served asset /rails.png - 304 Not Modified (26ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:32:25 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.1ms)
+Completed 200 OK in 764ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:33:47 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.0ms)
+Completed 200 OK in 417ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:34:29 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.0ms)
+Completed 200 OK in 71ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:34:57 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.2.101 at 2011-09-23 00:37:46 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 192.168.2.101 at 2011-09-23 00:37:52 +0200
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:38:34 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (13.5ms)
+Completed 200 OK in 202ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:39:40 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.1ms)
+Completed 200 OK in 110833ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:41:31 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.1ms)
+Completed 200 OK in 567ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:41:39 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.1ms)
+Completed 200 OK in 136458ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:44:23 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.1ms)
+Completed 200 OK in 416ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:48:28 +0200
+
+LoadError (no such file to load -- google-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:57:15 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:5:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:57:39 +0200
+
+LoadError (no such file to load -- google-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:58:49 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:7:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:59:20 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:5:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 00:59:22 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:5:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:00:20 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:5:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:04:03 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:5:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:11:57 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ApplicationController::Google):
+  app/controllers/application_controller.rb:5:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:12:19 +0200
+
+LoadError (no such file to load -- google-search):
+  app/controllers/application_controller.rb:4:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:12:27 +0200
+
+LoadError (no such file to load -- google-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:13:17 +0200
+
+LoadError (no such file to load -- google-search):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:27:47 +0200
+
+LoadError (no such file to load -- nokogiri):
+  app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290@global/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:31:07 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (66.1ms)
+Completed 200 OK in 653ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:31:16 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (47.3ms)
+Completed 200 OK in 190ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:40:21 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 210ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:12:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:41:05 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.8ms)
+Completed 200 OK in 123ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:41:28 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://www.google.com/search?q=x3 2312):
+  app/controllers/application_controller.rb:10:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:41:38 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://www.google.com/search?q="x3 2312"):
+  app/controllers/application_controller.rb:10:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:41:43 +0200
+
+SyntaxError (/Users/christian/Documents/Projekte/flightnotify/app/controllers/application_controller.rb:10: syntax error, unexpected tIDENTIFIER, expecting ')'
+...p://www.google.com/search?q='x3 2312''))
+...                               ^):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:42:10 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 496ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:42:23 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 228ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:45:32 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.3ms)
+Completed 200 OK in 158ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:45:34 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 179ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:45:59 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 237ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:46:10 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 136ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:48:10 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (28.5ms)
+Completed 200 OK in 530ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:48:25 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (1.9ms)
+Completed 200 OK in 162ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:49:53 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (1.2ms)
+Completed 200 OK in 183ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:50:26 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 145ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:50:30 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 178ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:50:35 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (1.2ms)
+Completed 200 OK in 150ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:50:53 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 153ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:51:07 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 161ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:51:48 +0200
+
+SyntaxError (/Users/christian/Documents/Projekte/flightnotify/app/controllers/application_controller.rb:14: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      foo.css('.rbt') each do |bar|
+                          ^
+/Users/christian/Documents/Projekte/flightnotify/app/controllers/application_controller.rb:18: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:51:54 +0200
+
+SyntaxError (/Users/christian/Documents/Projekte/flightnotify/app/controllers/application_controller.rb:18: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:52:05 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 507ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:53:32 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.3ms)
+Completed 200 OK in 496ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:57:18 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 538ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:58:28 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.2ms)
+Completed 200 OK in 150ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 01:59:57 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.5ms)
+Completed 200 OK in 496ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 02:00:53 +0200
+  Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 153ms
+
+NoMethodError (undefined method `html' for #<Nokogiri::XML::Element:0x007fb517922a60>):
+  app/controllers/application_controller.rb:14:in `block in index'
+  app/controllers/application_controller.rb:13:in `index'
+
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Users/christian/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1.rc1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 02:01:04 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.4ms)
+Completed 200 OK in 143ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 02:02:58 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (2.4ms)
+Completed 200 OK in 512ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 02:03:12 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (0.4ms)
+Completed 200 OK in 155ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2011-09-23 02:03:20 +0200
+  Processing by ApplicationController#index as HTML
+Rendered application/index.erb (2.3ms)
+Completed 200 OK in 152ms (Views: 5.3ms | ActiveRecord: 0.0ms)
