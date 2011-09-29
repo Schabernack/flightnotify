@@ -1,0 +1,13 @@
+Flug: <b><%= @flight %></b><br/>
+von: <b><%= @from %></b>
+nach: <b><%= @to %></b><br/>
+
+<% if @delayed %>
+Verspätet!!!
+<% end %>
+
+Abfahrt: <b><%= @departure %></b>
+geplante Abfahrt: <b><%= @plannedDeparture %></b>
+<br />
+Ankunft: <b><%= @arrival %></b>
+geplante Ankunf: <b><%= @plannedArrival %></b>
