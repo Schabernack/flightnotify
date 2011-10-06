@@ -1,1 +1,6 @@
-<%= debug @bla %>
+<%= form_tag(:action => "search") do %>
+  <%= label_tag(:query, "Flugnummer:") %>
+  <%= text_field_tag(:query)  %>
+  <%= submit_tag "Suchen", :id => "submit", :name => "submit", :class => "form_submit", :disabled => false, :disable_with => "Please wait..." %>
+  
+<% end -%>
