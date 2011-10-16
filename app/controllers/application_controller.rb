@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
+  protect_from_forgery  
+  layout "default"
 
   require "rubygems"
   require "bundler/setup"
