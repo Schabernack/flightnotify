@@ -33,7 +33,7 @@
     <td><%= flight.arrival_terminal %></td>
     <td><%= link_to 'Show', flight %></td>
     <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
-    <td><%= link_to 'Destroy', flight, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= button_to 'Destroy', flight, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
