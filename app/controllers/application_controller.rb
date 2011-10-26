@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   require "rubygems"
   require "bundler/setup"
   require "nokogiri"
-  require "open-uri"
+  
   
   def index
     

@@ -3,7 +3,7 @@ class FlightsController < ApplicationController
   # GET /flights.json
   def index
     @flights = Flight.all
-
+    @nextFlight = Flight.next_for_update
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @flights }
@@ -43,7 +43,7 @@ class FlightsController < ApplicationController
     @flight = Flight.new(params[:flight])
     #logger.info @flight.inspect
     
-    @flight.get_details(@flight.flight_number)
+    @flight=Flight.get_details(@flight.flight_number)
 
     respond_to do |format|
       if @flight.save
