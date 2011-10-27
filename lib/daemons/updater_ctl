@@ -2,8 +2,9 @@
 require 'rubygems'
 require "daemons"
 require 'yaml'
-require 'erb'
-
+require 'erb'   
+require 'nokogiri'
+require "open-uri"
 
 require 'active_support'
 

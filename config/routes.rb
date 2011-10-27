@@ -1,3 +1,7 @@
 Flightnotify::Application.routes.draw do
-  resources :flights
+  root :to => "flights#index"
+  
+  resources :flights     
+  
+  
 end

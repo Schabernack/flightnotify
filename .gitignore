@@ -2,3 +2,5 @@
 log/development.log
 
 tmp/cache/*
+
+log/development.log
