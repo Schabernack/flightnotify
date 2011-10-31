@@ -4,9 +4,10 @@ class Flight < ActiveRecord::Base
   require "open-uri"
   
   validates_presence_of :name, :on => :create, :message => "konnte FLug nicht finden."
+  validates_presence_of :actual_departure, :on => :create, :message => "can't be blank"
   
   def self.next_for_update
-    Flight.first(:conditions => ["actual_departure >= ?", Time.now], :order => "updated_at ASC")
+    Flight.first(:conditions => ["actual_departure >= ? AND updated_at <= ?", Time.now, Time.now-10.minutes], :order => "updated_at ASC")
   end 
   
   def self.get_details(flight_number)  

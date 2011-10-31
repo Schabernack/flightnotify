@@ -18,14 +18,18 @@ while($running) do
   
   flight = Flight.next_for_update
 
-  new_flight = Flight.get_details(flight.flight_number)
+  if !flight.nil?
+    new_flight = Flight.get_details(flight.flight_number)
 
-  flight.update_attributes(:actual_departure => new_flight.actual_departure,
-                          :actual_arrival => new_flight.actual_arrival,
-                          :planned_departure => new_flight.planned_departure,
-                          :planned_arrival => new_flight.planned_arrival)
-  Rails.logger.info "HALLO123"
-  Rails.logger.info "UPDATED FLIGHT WITH ID #{flight.id}" 
+    if !new_flight.actual_departure.nil?
+      flight.update_attributes(:actual_departure => new_flight.actual_departure,
+                              :actual_arrival => new_flight.actual_arrival,
+                              :planned_departure => new_flight.planned_departure,
+                              :planned_arrival => new_flight.planned_arrival)
+    end
+       
+    
+  end
   
-  sleep 10
+  sleep 20
 end
