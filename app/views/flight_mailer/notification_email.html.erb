@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>notification_email.html</title>
+    
+  </head>
+  <body>
+    <h1>Ihre Flugbenachrichtigung</h1>
+    <p>
+      Ihr Flug <%= @flight.name %> wird ab jetzt überwacht
+    </p>                                                  
+    <p>
+      Voraussichtlicher Abflug: <%= @flight.actual_departure %>
+    </p>
+  </body>                                                      
+</html>
