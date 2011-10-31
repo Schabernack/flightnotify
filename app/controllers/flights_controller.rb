@@ -46,7 +46,9 @@ class FlightsController < ApplicationController
     @flight=Flight.get_details(@flight.flight_number)
 
     respond_to do |format|
-      if @flight.save
+      if @flight.save 
+        FlightMailer.notification_email(@flight).deliver
+        
         format.html { redirect_to @flight, notice: 'Flight was successfully created.' }
         format.json { render json: @flight, status: :created, location: @flight }
       else
