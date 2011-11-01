@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.1.rc1'
+gem 'rails', '3.1.1'
 gem 'nokogiri'
 gem 'execjs'
 gem 'therubyracer'
@@ -9,7 +9,7 @@ gem 'therubyracer'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'daemons'
 
 # Gems used only for assets and not required
 # in production environments by default.

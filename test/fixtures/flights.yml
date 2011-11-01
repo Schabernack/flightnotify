@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  flight_number: MyString
+  name: MyString
+  departure_location: MyString
+  arrival_location: MyString
+  planned_departure: 2011-10-16
+  planned_arrival: 2011-10-16
+  actual_departure: 2011-10-16
+  actual_arrival: 2011-10-16
+  updated_at: 2011-10-16 17:16:30
+  departure_terminal: MyString
+  arrival_terminal: MyString
+
+two:
+  flight_number: MyString
+  name: MyString
+  departure_location: MyString
+  arrival_location: MyString
+  planned_departure: 2011-10-16
+  planned_arrival: 2011-10-16
+  actual_departure: 2011-10-16
+  actual_arrival: 2011-10-16
+  updated_at: 2011-10-16 17:16:30
+  departure_terminal: MyString
+  arrival_terminal: MyString

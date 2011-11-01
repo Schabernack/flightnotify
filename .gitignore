@@ -1,2 +1,6 @@
 *.log
-log/development.log
+
+tmp/cache/*
+
+log/updater.rb.pid
+
