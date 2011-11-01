@@ -46,7 +46,13 @@ class FlightsController < ApplicationController
     @flight=Flight.get_details(@flight.flight_number)
 
     respond_to do |format|
-      if @flight.save 
+      if @flight.save
+        user = User.new
+        user.mail = 'flugstatusmailer@gmail.com'
+        user.flight=@flight
+        user.save
+        @flight.user=user
+
         FlightMailer.notification_email(@flight).deliver
         
         format.html { redirect_to @flight, notice: 'Flight was successfully created.' }
