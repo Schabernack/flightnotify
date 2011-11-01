@@ -21,8 +21,8 @@ Flightnotify::Application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => "flightnotify.dev",
-    :user_name            => "",
-    :password             => "",
+    :user_name            => "flugstatusmailer@gmail.com",
+    :password             => "xxx",
     :authentication       => "plain",
     :enable_starttls_auto => true
   }

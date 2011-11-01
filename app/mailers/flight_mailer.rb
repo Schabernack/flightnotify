@@ -3,7 +3,7 @@ class FlightMailer < ActionMailer::Base
   
   def notification_email(flight)
     @flight = flight           
-    mail(:to => "reinerzufall4u@gmail.com", :subject => "Ihr Fluginformationen")
+    mail(:to => "flugstatusmailer@gmail.com", :subject => "Ihre Fluginformationen")
     
   end
 end
