@@ -9,7 +9,7 @@ class Flight < ActiveRecord::Base
   validates_presence_of :name, :on => :create, :message => "konnte FLug nicht finden."
   validates_presence_of :actual_departure, :on => :create, :message => "can't be blank"
 
-  belongs_to :user
+
   
   def self.next_for_update
     Flight.first(:conditions => ["actual_departure >= ? AND updated_at <= ?", Time.now, Time.now-10.minutes], :order => "updated_at ASC")
