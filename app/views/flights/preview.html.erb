@@ -1,0 +1,62 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Flight number:</b>
+  <%= @flight.flight_number %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @flight.name %>
+</p>
+
+<p>
+  <b>Departure location:</b>
+  <%= @flight.departure_location %>
+</p>
+
+<p>
+  <b>Arrival location:</b>
+  <%= @flight.arrival_location %>
+</p>
+
+<p>
+  <b>Planned departure:</b>
+  <%= @flight.planned_departure %>
+</p>
+
+<p>
+  <b>Planned arrival:</b>
+  <%= @flight.planned_arrival %>
+</p>
+
+<p>
+  <b>Actual departure:</b>
+  <%= @flight.actual_departure %>
+</p>
+
+<p>
+  <b>Actual arrival:</b>
+  <%= @flight.actual_arrival %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%= @flight.updated_at %>
+</p>
+
+<p>
+  <b>Departure terminal:</b>
+  <%= @flight.departure_terminal %>
+</p>
+
+<p>
+  <b>Arrival terminal:</b>
+  <%= @flight.arrival_terminal %>
+</p>
+     
+<%= form_tag(subscribe_flights_path) do %>
+  <%= text_field_tag :email %>
+  <%= submit_tag "Submit" %>
+  
+<% end -%>

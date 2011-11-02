@@ -19,6 +19,15 @@ class FlightsController < ApplicationController
       format.html # show.html.erb
       format.json { render json: @flight }
     end
+  end 
+  
+  def preview
+    @flight = Flight.get_details(params[:flight_number])
+    session[:flight] = @flight
+    respond_to do |format|
+      format.html # preview.html.erb
+      format.json { render json: @flight }
+    end
   end
 
   # GET /flights/new
@@ -62,6 +71,29 @@ class FlightsController < ApplicationController
         format.json { render json: @flight.errors, status: :unprocessable_entity }
       end           
     end
+  end 
+  
+  def subscribe
+    @flight = session[:flight]
+    respond_to do |format|
+      if @flight.save
+        
+        user = User.find_or_create_by_mail(params[:email])
+        @flight.user = user
+        user.flights << @flight
+        
+        if FlightMailer.notification_email(@flight).deliver
+          reset_session
+        end                          
+        
+        format.html { redirect_to root_path, notice: 'Flight was successfully created.' }
+        format.json { render json: @flight, status: :created, location: @flight }
+      else
+        format.html { render action: "new" }
+        format.json { render json: @flight.errors, status: :unprocessable_entity }
+      end           
+    end
+    
   end
 
   # PUT /flights/1

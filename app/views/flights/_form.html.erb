@@ -1,4 +1,4 @@
-<%= form_for(@flight) do |f| %>
+<%= form_tag(preview_flights_url) do %>
   <% if @flight.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@flight.errors.count, "error") %> prohibited this flight from being saved:</h2>
@@ -12,12 +12,12 @@
   <% end %>  
                                     
   <div class="field">
-    <%= f.label :flight_number %><br />
-    <%= f.text_field :flight_number %>
+    <%= label_tag :flight_number, "Flugnummer" %><br />
+    <%= text_field_tag :flight_number %>
   </div>
 
   <div class="actions">
     <%= link_to 'Back', flights_path, :class => "btn" %>
-    <%= f.submit :class => "form_submit btn primary"%>
+    <%= submit_tag "Preview", :class => "form_submit btn primary"%>
   </div>
 <% end %>
