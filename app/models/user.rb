@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
 
-  has_one :flight
+  has_many :subscriptions
+  has_many :flights, :through => :subscriptions
 
 end

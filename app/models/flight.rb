@@ -2,7 +2,10 @@ class Flight < ActiveRecord::Base
   require 'rubygems'   
   require 'nokogiri'
   require "open-uri"
-  
+
+  has_one :subscription
+  has_one :user, :through => :subscription
+
   validates_presence_of :name, :on => :create, :message => "konnte FLug nicht finden."
   validates_presence_of :actual_departure, :on => :create, :message => "can't be blank"
   
