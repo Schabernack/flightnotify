@@ -19,15 +19,6 @@ class FlightsController < ApplicationController
       format.html # show.html.erb
       format.json { render json: @flight }
     end
-  end                   
-  
-  def preview
-    @flight = Flight.new(params[:flight])  
-    
-    @flight = Flight.get_details(@flight.flight_number)
-    
-    
-    
   end
 
   # GET /flights/new
@@ -55,13 +46,7 @@ class FlightsController < ApplicationController
     @flight=Flight.get_details(@flight.flight_number)
 
     respond_to do |format|
-      if @flight.save
-        user = User.new
-        user.mail = 'flugstatusmailer@gmail.com'
-        user.flight=@flight
-        user.save
-        @flight.user=user
-
+      if @flight.save 
         FlightMailer.notification_email(@flight).deliver
         
         format.html { redirect_to @flight, notice: 'Flight was successfully created.' }
@@ -70,21 +55,6 @@ class FlightsController < ApplicationController
         format.html { render action: "new" }
         format.json { render json: @flight.errors, status: :unprocessable_entity }
       end           
-    end
-  end 
-  
-  def observe
-    @flight = Flight.new(params[:flight])
-    @user = User.find_or_create_by_email(params[:email])
-    
-    @flight.user = @user                 
-    
-    respond_to do |format|
-      if @flight.save
-        FlightMailer.notification_email(@flight.deliver)
-        
-        format.html { redirect_to root_path, notice: "Sie beobachten jetzt den Flug: #{@flight.name}" }
-      end
     end
   end
 
