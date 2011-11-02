@@ -1,10 +1,4 @@
 *.log
-
 tmp/cache/*
-
 log/updater.rb.pid
-
-
 db/development.sqlite3
-
-db/schema.rb
