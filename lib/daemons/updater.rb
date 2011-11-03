@@ -16,7 +16,7 @@ while($running) do
   Rails.logger.auto_flushing = true                                 
   Rails.logger.info "This daemon is still running at #{Time.now}.\n"
   
-  flight = Flight.next_for_update
+  flight = Subscription.next_for_update
 
   if !flight.nil?
     new_flight = Flight.get_details(flight.flight_number)

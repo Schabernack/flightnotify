@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111102194224) do
+ActiveRecord::Schema.define(:version => 20111102223717) do
 
   create_table "flights", :force => true do |t|
     t.string   "flight_number"
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(:version => 20111102194224) do
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "del_token"
   end
 
   create_table "users", :force => true do |t|

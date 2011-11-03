@@ -8,7 +8,9 @@
   <%= javascript_include_tag "application" %>
 </head>
 <body>
-  <div class="container">                 
+  <div class="container">
+    <p><%= flash[:error] %>                 
+    </p>
     <%= yield %>         
   </div>
 </body>

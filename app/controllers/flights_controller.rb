@@ -40,46 +40,14 @@ class FlightsController < ApplicationController
       format.json { render json: @flight }
     end
   end
-
-  # GET /flights/1/edit
-  def edit
-    @flight = Flight.find(params[:id])
-  end
-
-  # POST /flights
-  # POST /flights.json
-  def create
-    @flight = Flight.new(params[:flight])
-    #logger.info @flight.inspect
-    
-    @flight=Flight.get_details(@flight.flight_number)
-
-    respond_to do |format|
-      if @flight.save
-        user = User.new
-        user.mail = 'flugstatusmailer@gmail.com'
-        user.flight=@flight
-        user.save
-        @flight.user=user
-
-        FlightMailer.notification_email(@flight).deliver
-        
-        format.html { redirect_to @flight, notice: 'Flight was successfully created.' }
-        format.json { render json: @flight, status: :created, location: @flight }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @flight.errors, status: :unprocessable_entity }
-      end           
-    end
-  end 
   
   def subscribe
     @flight = session[:flight]
     respond_to do |format|
       if @flight.save
-        
         user = User.find_or_create_by_mail(params[:email])
-        @flight.user = user
+        @flight.subscription.del_token = ActiveSupport::SecureRandom.hex(12)
+        @flight.subscription.save
         user.flights << @flight
         
         if FlightMailer.notification_email(@flight).deliver
