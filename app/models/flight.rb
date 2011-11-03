@@ -1,7 +1,5 @@
 class Flight < ActiveRecord::Base
-  require 'rubygems'   
-  require 'nokogiri'
-  require "open-uri"
+
 
   has_one :subscription
   has_one :user, :through => :subscription
