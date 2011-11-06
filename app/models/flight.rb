@@ -1,6 +1,5 @@
 class Flight < ActiveRecord::Base
 
-
   has_one :subscription
   has_one :user, :through => :subscription
 
@@ -17,9 +16,8 @@ class Flight < ActiveRecord::Base
 
     response = Nokogiri::HTML(open('http://www.google.com/search?q='+flight_number.gsub(/ /,'')))
     
-    response.css('.rbt').each do |foo|
-     
-      
+    response.css('.obcontainer').each do |foo|
+           
       flight.name = foo.at_css('b').text                               
 
       flight.departure_location = foo.at_css("tr:nth-child(3) td:nth-child(2)") .text

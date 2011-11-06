@@ -17,7 +17,7 @@
     <th></th>
     <th></th>
   </tr>
-                               
+
 <% @flights.each do |flight| %>
   <tr <% if flight.actual_departure < Time.now %>class="red"<% end %>>
     <td><%= flight.flight_number %></td>
