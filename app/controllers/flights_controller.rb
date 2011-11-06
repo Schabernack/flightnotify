@@ -23,7 +23,8 @@ class FlightsController < ApplicationController
   
   def preview
     @flight = Flight.get_details(params[:flight_number])
-    session[:flight] = @flight
+    @flight.save
+    session[:flight_id] = @flight.id
     respond_to do |format|
       format.html # preview.html.erb
       format.json { render json: @flight }
@@ -34,7 +35,6 @@ class FlightsController < ApplicationController
   # GET /flights/new.json
   def new
     @flight = Flight.new
-
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @flight }
@@ -42,10 +42,12 @@ class FlightsController < ApplicationController
   end
   
   def subscribe
-    @flight = session[:flight]
+    @flight = Flight.find(session[:flight_id])
     respond_to do |format|
       if @flight.save
         user = User.find_or_create_by_mail(params[:email])
+        @flight.user = user
+        Rails.logger.info @flight.inspect
         @flight.subscription.del_token = ActiveSupport::SecureRandom.hex(12)
         @flight.subscription.save
         user.flights << @flight

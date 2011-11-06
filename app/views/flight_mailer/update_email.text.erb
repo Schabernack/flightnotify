@@ -1,7 +1,7 @@
 Ihre Flugbenachrichtigung
 
-Ihr Flug <%= @flight.name %> wird jetzt überwacht.
+Abflugzeitpunkt Ihres Fluges <%= @flight.name %> hat sich geändert 
 
-Voraussichtlicher Abflug: <%= @flight.actual_departure %>              
+Voraussichtlicher Abflug: <%= @flight.actual_departure %>    
 
 Um Ihr Abo zu löschen klicken Sie folgenden Link: <%= link_to 'Flug nicht mehr überwachen!', unsubscribe_url(:id => @flight.subscription.id, :d => @flight.subscription.del_token) %>

@@ -6,6 +6,8 @@ class Flight < ActiveRecord::Base
   validates_presence_of :name, :on => :create, :message => "konnte FLug nicht finden."
   validates_presence_of :actual_departure, :on => :create, :message => "can't be blank"
   
+  attr_accessible :actual_departure, :actual_arrival, :planned_arrival, :planned_departure
+  
   def self.next_for_update
     Flight.first(:conditions => ["actual_departure >= ? AND updated_at <= ?", Time.now, Time.now-10.minutes], :order => "updated_at ASC")
   end 
@@ -51,6 +53,15 @@ class Flight < ActiveRecord::Base
       flight.arrival_terminal = foo.at_css("tr:nth-child(5) td:nth-child(5)").text
     end
     flight
-  end   
+  end
+  
+  
+  def flight_details_changed?(new_flight)
+    if actual_departure != new_flight.actual_departure || actual_arrival != new_flight.actual_arrival
+      return true
+    else
+      return false
+    end
+  end  
 
 end

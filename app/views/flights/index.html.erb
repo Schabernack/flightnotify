@@ -33,7 +33,7 @@
     <td><%= flight.arrival_terminal %></td>
     <td><%= link_to 'Show', flight %></td>
     <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
-    <td><%= link_to 'Destroy', {:controller => "subscriptions", :action => :destroy, :id => flight.subscription.id, :d => "qwerz"}, :confirm => 'Are you sure?', :method => :get %></td>
+    <td><%= link_to 'Destroy', {:controller => "subscriptions", :action => :destroy, :id => flight.subscription.id, :d => flight.subscription.del_token}, :confirm => 'Are you sure?', :method => :get %></td>
   </tr>
 <% end %>
 </table>

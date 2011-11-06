@@ -1,6 +1,6 @@
 Flightnotify::Application.routes.draw do
 
-  get "/subscriptions/:id/destroy" => "subscriptions#destroy"
+  get "/subscriptions/:id/destroy" => "subscriptions#destroy", :as => "unsubscribe"
   
   root :to => "flights#index"
   
