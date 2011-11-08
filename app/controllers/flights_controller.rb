@@ -22,12 +22,15 @@ class FlightsController < ApplicationController
   end 
   
   def preview
-    @flight = Flight.get_details(params[:flight_number])
-    @flight.save
-    session[:flight_id] = @flight.id
+    @flight = Flight.get_details(params[:flight][:flight_number])    
     respond_to do |format|
-      format.html # preview.html.erb
-      format.json { render json: @flight }
+      if @flight.save
+        session[:flight_id] = @flight.id
+        
+        format.html #   preview.html.erb 
+        format.js
+        format.json { render json: @flight }
+      end
     end
   end
 
@@ -42,20 +45,17 @@ class FlightsController < ApplicationController
   end
   
   def subscribe
-    @flight = Flight.find(session[:flight_id])
+    @flight = Flight.find(session[:flight_id]) 
+    user = User.find_or_create_by_mail(params[:email])
+    
+    @flight.create_subscription(:user => user, :del_token => SecureRandom.hex(12))
+                           
+    if FlightMailer.notification_email(@flight).deliver
+      reset_session
+    end
+    
     respond_to do |format|
-      if @flight.save
-        user = User.find_or_create_by_mail(params[:email])
-        @flight.user = user
-        Rails.logger.info @flight.inspect
-        @flight.subscription.del_token = ActiveSupport::SecureRandom.hex(12)
-        @flight.subscription.save
-        user.flights << @flight
-        
-        if FlightMailer.notification_email(@flight).deliver
-          reset_session
-        end                          
-        
+      if @flight.save            
         format.html { redirect_to root_path, notice: 'Flight was successfully created.' }
         format.json { render json: @flight, status: :created, location: @flight }
       else
