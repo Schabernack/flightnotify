@@ -8,6 +8,7 @@ Flightnotify::Application.routes.draw do
     collection do 
       post 'preview'
       post 'subscribe'
+      post 'remove_from_db'
     end
   end
            

@@ -25,3 +25,16 @@ two:
   updated_at: 2011-10-16 17:16:30
   departure_terminal: MyString
   arrival_terminal: MyString
+  
+hamburg:
+  flight_number: LH1234
+  name: Lufthansa nach Hamburg
+  departure_location: Köln
+  arrival_location: Hamburg
+  planned_departure: <%= Time.now+100.minutes %>
+  planned_arrival: <%= Time.now+360.minutes %>
+  actual_departure: <%= Time.now+120.minutes %>
+  actual_arrival: <%= Time.now+380.minutes %>
+  updated_at: <%= Time.now-12.minutes %>
+  departure_terminal: Terminal 1
+  arrival_terminal: Terminal 2

@@ -1,3 +1,8 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+$(document).on("click", '#reset', ->
+  $("#flight_flight_number").val("");
+  $.post('remove_from_db', { flight_id: -> $("#flight_id").val()});
+  $("#flight_details").children().detach();
+  
+) 
+
+

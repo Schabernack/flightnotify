@@ -37,6 +37,10 @@ class FlightsController < ApplicationController
   # GET /flights/new
   # GET /flights/new.json
   def new
+    if session[:flight_id]
+      #Flight.destroy(session[:flight_id]) 
+      reset_session
+    end
     @flight = Flight.new
     respond_to do |format|
       format.html # new.html.erb
@@ -90,6 +94,15 @@ class FlightsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to flights_url }
+      format.json { head :ok }
+    end
+  end 
+  
+  def remove_from_db
+    Rails.logger.info params.inspect
+    Flight.destroy(params[:flight_id])
+    
+    respond_to do |format|
       format.json { head :ok }
     end
   end

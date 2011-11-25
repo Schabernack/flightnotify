@@ -1,11 +1,15 @@
-  <p>
+<%= hidden_field_tag "flight_id", session[:flight_id] %>
+  <p>                          
+    
     <b>Flight number:</b>
     <%= flight.flight_number %>
   </p>
 
   <p>
     <b>Name:</b>
-    <%= flight.name %>
+    <div id="name">
+      <%= flight.name %>
+    </div>
   </p>
 
   <p>
@@ -60,6 +64,7 @@
       
     </div>                  
     <div class="actions">
+      <span id="reset">neuen suchen</span>
       <%= submit_tag "Überwachen!" %>
       
     </div>
